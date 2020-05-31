@@ -5,13 +5,6 @@
 The image HDR dataset contains 652 normal and HDR readings of cropped license plates with a csv containing
 annotation as well. You can download the dataset from here : https://medusa.fit.vutbr.cz/traffic/research-topics/general-traffic-analysis/holistic-recognition-of-low-quality-license-plates-by-cnn-using-track-annotated-data-iwt4s-avss-2017/
 
-# File: trainVal.csv
-------------
-track_id - ID of specific track based on tracker
-image_path - path to image in archive structure
-lp - ground truth text for license plate
-train - Train/test split. 0 - test, 1 - train
-
 # Preprocessing the Dataset
 
 1. After reading the csv file as a pandas dataframe, shuffle the dataframe before splitting the data into Train and Test.
