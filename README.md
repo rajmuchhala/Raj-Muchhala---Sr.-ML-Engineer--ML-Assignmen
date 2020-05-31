@@ -1,5 +1,4 @@
-# idfy
-License plate OCR solution
+# License plate OCR solution
 
 Dataset
 
